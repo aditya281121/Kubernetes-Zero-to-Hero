@@ -41,3 +41,9 @@
      ```
      minikube ssh
      curl [ip_address_of_pod]
+  6. To delete your pod
+     ```
+     kubectl delete pod nginx
+     kubectl logs pod nginx
+     kubectl describe pod nginx
+       
